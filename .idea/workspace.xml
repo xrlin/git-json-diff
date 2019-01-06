@@ -2,56 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5f1cd5be-57eb-4dea-b8ab-e11e6f72e857" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/git_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/modules.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/git-json-diff.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/git-json-diff.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gopkg.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gopkg.toml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/git.go" beforeDir="false" afterPath="$PROJECT_DIR$/git.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/cmd/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.json" beforeDir="false" afterPath="$PROJECT_DIR$/test.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/sergi/go-diff/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/sergi/go-diff/.travis.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/sergi/go-diff/APACHE-LICENSE-2.0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/sergi/go-diff/Makefile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/sergi/go-diff/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/sergi/go-diff/diffmatchpatch/benchutil_test.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/sergi/go-diff/diffmatchpatch/diff_test.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/sergi/go-diff/diffmatchpatch/match_test.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/sergi/go-diff/diffmatchpatch/patch_test.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/sergi/go-diff/diffmatchpatch/stringutil_test.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/sergi/go-diff/scripts/lint.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/sergi/go-diff/testdata/speedtest1.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/sergi/go-diff/testdata/speedtest2.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/yudai/gojsondiff/FIXTURES/add_delete_from.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/yudai/gojsondiff/FIXTURES/add_delete_to.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/yudai/gojsondiff/FIXTURES/array.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/yudai/gojsondiff/FIXTURES/array_changed.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/yudai/gojsondiff/FIXTURES/base.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/yudai/gojsondiff/FIXTURES/base_changed.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/yudai/gojsondiff/FIXTURES/changed_types_from.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/yudai/gojsondiff/FIXTURES/changed_types_to.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/yudai/gojsondiff/FIXTURES/jsondiffpatch.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/yudai/gojsondiff/FIXTURES/long_text_from.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/yudai/gojsondiff/FIXTURES/long_text_to.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/yudai/gojsondiff/FIXTURES/move_from.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/yudai/gojsondiff/FIXTURES/move_to.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/yudai/gojsondiff/Godeps/Godeps.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/yudai/gojsondiff/Godeps/Readme" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/yudai/gojsondiff/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/github.com/yudai/gojsondiff/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/yudai/gojsondiff/formatter/ascii_test.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/yudai/gojsondiff/formatter/delta_test.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/yudai/gojsondiff/formatter/formatter_suite_test.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/yudai/gojsondiff/gojsondiff_suite_test.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/yudai/gojsondiff/gojsondiff_test.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/yudai/gojsondiff/jd/main.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/yudai/gojsondiff/jp/main.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/yudai/gojsondiff/tests/helper.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/yudai/gojsondiff/unmarshaler_test.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/yudai/golcs/golcs_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/git_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/git_test.go" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -62,11 +14,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="git.go" pinned="false" current-in-tab="false">
+      <file leaf-file-name="git.go" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/git.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-7">
-              <caret line="15" column="9" lean-forward="true" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
+            <state relative-caret-position="437">
+              <caret line="49" column="26" lean-forward="true" selection-start-line="49" selection-start-column="26" selection-end-line="49" selection-end-column="26" />
               <folding>
                 <element signature="e#23#73#0" expanded="true" />
               </folding>
@@ -77,8 +29,11 @@
       <file leaf-file-name="git_test.go" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/git_test.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="138">
-              <caret line="6" column="19" lean-forward="true" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
+            <state relative-caret-position="394">
+              <caret line="44" column="5" lean-forward="true" selection-start-line="44" selection-start-column="5" selection-end-line="44" selection-end-column="5" />
+              <folding>
+                <element signature="e#23#51#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -86,8 +41,8 @@
       <file leaf-file-name="main.go" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cmd/main.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="115">
-              <caret line="8" column="1" lean-forward="true" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+            <state relative-caret-position="211">
+              <caret line="31" column="41" lean-forward="true" selection-start-line="31" selection-start-column="41" selection-end-line="31" selection-end-column="41" />
               <folding>
                 <element signature="e#23#48#0" expanded="true" />
               </folding>
@@ -95,11 +50,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test.json" pinned="false" current-in-tab="true">
+      <file leaf-file-name="test.json" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="46">
-              <caret line="2" column="20" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
+            <state relative-caret-position="115">
+              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -134,10 +89,10 @@
       <list>
         <option value="$PROJECT_DIR$/main.go" />
         <option value="$PROJECT_DIR$/vendor/modules.txt" />
-        <option value="$PROJECT_DIR$/git_test.go" />
         <option value="$PROJECT_DIR$/cmd/main.go" />
-        <option value="$PROJECT_DIR$/git.go" />
         <option value="$PROJECT_DIR$/test.json" />
+        <option value="$PROJECT_DIR$/git.go" />
+        <option value="$PROJECT_DIR$/git_test.go" />
       </list>
     </option>
   </component>
@@ -200,7 +155,18 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Test.TestRetrieveFileContentWithCommitId in github.com/xrlin/git-json-diff">
+  <component name="RunManager" selected="Go Test.TestCompare in github.com/xrlin/git-json-diff">
+    <configuration name="TestCompare in github.com/xrlin/git-json-diff" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="git-json-diff" />
+      <working_directory value="$PROJECT_DIR$" />
+      <go_parameters value="-i" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="github.com/xrlin/git-json-diff" />
+      <directory value="$PROJECT_DIR$/" />
+      <filePath value="$PROJECT_DIR$/" />
+      <pattern value="^TestCompare$" />
+    </configuration>
     <configuration name="TestIsGitInstall in github.com/xrlin/git-json-diff" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="git-json-diff" />
       <working_directory value="$PROJECT_DIR$" />
@@ -226,33 +192,17 @@
     <list>
       <item itemvalue="Go Test.TestIsGitInstall in github.com/xrlin/git-json-diff" />
       <item itemvalue="Go Test.TestRetrieveFileContentWithCommitId in github.com/xrlin/git-json-diff" />
+      <item itemvalue="Go Test.TestCompare in github.com/xrlin/git-json-diff" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Test.TestCompare in github.com/xrlin/git-json-diff" />
         <item itemvalue="Go Test.TestRetrieveFileContentWithCommitId in github.com/xrlin/git-json-diff" />
         <item itemvalue="Go Test.TestIsGitInstall in github.com/xrlin/git-json-diff" />
       </list>
     </recent_temporary>
   </component>
   <component name="TestHistory">
-    <history-entry file="TestIsGitInstall_in_github_com_xrlin_git-json-diff - 2019.01.07 at 00h 07m 02s.xml">
-      <configuration name="TestIsGitInstall in github.com/xrlin/git-json-diff" configurationId="GoTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="TestRetrieveFileContentWithCommitId_in_github_com_xrlin_git-json-diff - 2019.01.07 at 00h 11m 29s.xml">
-      <configuration name="TestRetrieveFileContentWithCommitId in github.com/xrlin/git-json-diff" configurationId="GoTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="TestRetrieveFileContentWithCommitId_in_github_com_xrlin_git-json-diff - 2019.01.07 at 00h 11m 44s.xml">
-      <configuration name="TestRetrieveFileContentWithCommitId in github.com/xrlin/git-json-diff" configurationId="GoTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="TestRetrieveFileContentWithCommitId_in_github_com_xrlin_git-json-diff - 2019.01.07 at 00h 15m 28s.xml">
-      <configuration name="TestRetrieveFileContentWithCommitId in github.com/xrlin/git-json-diff" configurationId="GoTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="TestRetrieveFileContentWithCommitId_in_github_com_xrlin_git-json-diff - 2019.01.07 at 00h 16m 34s.xml">
-      <configuration name="TestRetrieveFileContentWithCommitId in github.com/xrlin/git-json-diff" configurationId="GoTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="TestRetrieveFileContentWithCommitId_in_github_com_xrlin_git-json-diff - 2019.01.07 at 00h 17m 43s.xml">
-      <configuration name="TestRetrieveFileContentWithCommitId in github.com/xrlin/git-json-diff" configurationId="GoTestRunConfiguration" />
-    </history-entry>
     <history-entry file="TestRetrieveFileContentWithCommitId_in_github_com_xrlin_git-json-diff - 2019.01.07 at 00h 18m 22s.xml">
       <configuration name="TestRetrieveFileContentWithCommitId in github.com/xrlin/git-json-diff" configurationId="GoTestRunConfiguration" />
     </history-entry>
@@ -264,6 +214,24 @@
     </history-entry>
     <history-entry file="TestRetrieveFileContentWithCommitId_in_github_com_xrlin_git-json-diff - 2019.01.07 at 00h 36m 56s.xml">
       <configuration name="TestRetrieveFileContentWithCommitId in github.com/xrlin/git-json-diff" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestCompare_in_github_com_xrlin_git-json-diff - 2019.01.07 at 00h 49m 20s.xml">
+      <configuration name="TestCompare in github.com/xrlin/git-json-diff" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestCompare_in_github_com_xrlin_git-json-diff - 2019.01.07 at 00h 50m 22s.xml">
+      <configuration name="TestCompare in github.com/xrlin/git-json-diff" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestCompare_in_github_com_xrlin_git-json-diff - 2019.01.07 at 00h 58m 25s.xml">
+      <configuration name="TestCompare in github.com/xrlin/git-json-diff" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestCompare_in_github_com_xrlin_git-json-diff - 2019.01.07 at 00h 58m 58s.xml">
+      <configuration name="TestCompare in github.com/xrlin/git-json-diff" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestCompare_in_github_com_xrlin_git-json-diff - 2019.01.07 at 00h 59m 52s.xml">
+      <configuration name="TestCompare in github.com/xrlin/git-json-diff" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestCompare_in_github_com_xrlin_git-json-diff - 2019.01.07 at 01h 00m 10s.xml">
+      <configuration name="TestCompare in github.com/xrlin/git-json-diff" configurationId="GoTestRunConfiguration" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -277,14 +245,15 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32901832" />
       <window_info anchor="bottom" id="Event Log" sideWeight="0.5002667" side_tool="true" weight="0.5943905" />
       <window_info anchor="right" id="Scheme.REPL" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info active="true" anchor="bottom" id="Version Control" visible="true" weight="0.32901832" />
-      <window_info anchor="bottom" id="Terminal" sideWeight="0.49973333" weight="0.5943905" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32901832" />
+      <window_info anchor="bottom" id="Version Control" weight="0.32901832" />
+      <window_info anchor="bottom" id="Terminal" sideWeight="0.49973333" weight="0.49946064" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2496" />
       <window_info anchor="right" id="Database" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -333,11 +302,13 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Add test.json." />
-    <option name="LAST_COMMIT_MESSAGE" value="Add test.json." />
+    <MESSAGE value="modify" />
+    <MESSAGE value="fix json." />
+    <option name="LAST_COMMIT_MESSAGE" value="fix json." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="10" />
+      <option name="time" value="11" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
@@ -404,37 +375,54 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cmd/main.go">
+    <entry file="file://C:/Go/src/testing/testing.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="177">
+          <caret line="778" selection-start-line="778" selection-end-line="778" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="115">
-          <caret line="8" column="1" lean-forward="true" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cmd/main.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="211">
+          <caret line="31" column="41" lean-forward="true" selection-start-line="31" selection-start-column="41" selection-end-line="31" selection-end-column="41" />
           <folding>
             <element signature="e#23#48#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/git.go">
+    <entry file="file://$PROJECT_DIR$/vendor/github.com/yudai/gojsondiff/gojsondiff.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-7">
-          <caret line="15" column="9" lean-forward="true" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
-          <folding>
-            <element signature="e#23#73#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="146">
+          <caret line="54" column="17" selection-start-line="54" selection-start-column="17" selection-end-line="54" selection-end-column="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/git_test.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="6" column="19" lean-forward="true" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
+        <state relative-caret-position="394">
+          <caret line="44" column="5" lean-forward="true" selection-start-line="44" selection-start-column="5" selection-end-line="44" selection-end-column="5" />
+          <folding>
+            <element signature="e#23#51#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test.json">
+    <entry file="file://$PROJECT_DIR$/git.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="2" column="20" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
+        <state relative-caret-position="437">
+          <caret line="49" column="26" lean-forward="true" selection-start-line="49" selection-start-column="26" selection-end-line="49" selection-end-column="26" />
+          <folding>
+            <element signature="e#23#73#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
