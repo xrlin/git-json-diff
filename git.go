@@ -3,7 +3,6 @@ package git_json_diff
 import (
 	"os/exec"
 	"log"
-	"io/ioutil"
 	diff "github.com/yudai/gojsondiff"
 	"fmt"
 	"encoding/json"
@@ -17,27 +16,22 @@ func isGitInstall() bool {
 	return true
 }
 
-func RetriveFileContentWithCommitId(filePath, commitid string) (string, error) {
-	if isGitInstall() {
+func RetrieveFileContentWithCommitId(filePath, commitId string) (ret string, err error) {
+	if !isGitInstall() {
 		log.Fatalln("cannot find git command")
 	}
-	cmd := exec.Command("git", "show " + commitid + ":" + filePath)
-	stdout, err := cmd.StdoutPipe()
-	if err != nil {
-		log.Fatal(err)
-	}
+	cmd := exec.Command("git", "show",  commitId + ":" + filePath)
+	stdout, err := cmd.CombinedOutput()
 	defer func() {
-		stdout.Close()
+		if err != nil {
+			fmt.Printf("running %s with args %s riase error: %s\n", cmd.Path, cmd.Args, stdout)
+		}
 	}()
 
-	if err := cmd.Start(); err != nil {
-		log.Fatal(err)
+	if err != nil {
+		return "", err
 	}
-	if err := cmd.Wait(); err != nil {
-		log.Fatal(err)
-	}
-	b, err := ioutil.ReadAll(stdout)
-	return string(b), err
+	return string(stdout), err
 }
 
 func Compare(jsonText1, jsonText2, outFormat string) (string, error) {
