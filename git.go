@@ -7,7 +7,7 @@ import (
 	"fmt"
 	"encoding/json"
 	"github.com/yudai/gojsondiff/formatter"
-)
+	)
 
 func isGitInstall() bool {
 	if _, err := exec.LookPath("git"); err != nil {
@@ -34,7 +34,29 @@ func RetrieveFileContentWithCommitId(filePath, commitId string) (ret string, err
 	return string(stdout), err
 }
 
+func checkJSONUnmarshal(jsonText string) error {
+	var m  map[string]interface{}
+	err := json.Unmarshal([]byte(jsonText), &m)
+	return err
+}
+
 func Compare(jsonText1, jsonText2, outFormat string) (string, error) {
+	if jsonText1 == "" {
+		jsonText1 = "{}"
+	}
+
+	if jsonText2 == "" {
+		jsonText2 = "{}"
+	}
+
+	if err := checkJSONUnmarshal(jsonText1); err != nil {
+		return "", fmt.Errorf("json content:\n %s \n decode failed with error: %s\n", jsonText1, err)
+	}
+
+	if err := checkJSONUnmarshal(jsonText2); err != nil {
+		return "", fmt.Errorf("json content:\n %s \n decode failed with error: %s\n", jsonText2, err)
+	}
+
 	differ := diff.New()
 	d, err := differ.Compare([]byte(jsonText1), []byte(jsonText2))
 	if err != nil {

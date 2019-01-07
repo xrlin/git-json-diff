@@ -24,7 +24,7 @@ func main() {
 
 	jsonText2, err := git_json_diff.RetrieveFileContentWithCommitId(*filePath, *commit2)
 
-	diffString, err := git_json_diff.Compare(jsonText1, jsonText2, *format)
+	diffString, err := git_json_diff.Compare(jsonText2, jsonText1, *format)
 	if err != nil {
 		log.Fatalln(err)
 	}

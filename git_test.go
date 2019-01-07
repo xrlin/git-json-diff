@@ -42,6 +42,14 @@ func TestCompare(t *testing.T) {
   ]
 }
 	`},
+		{
+			`{
+	"item1": [
+		{"up": 1, "down": 2}
+	]
+	}`,
+			``,
+		},
 	}
 	for _, c := range testCases {
 		diffStr, err := Compare(c.input1, c.input2, "ascii")
