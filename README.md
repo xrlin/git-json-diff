@@ -7,19 +7,6 @@ go install github.com/xrlin/git-json-diff/cmd/git-json-diff/...
 ```
 Besides, you can download the executable files in releases page directly.
 
-```bash
-$ git-json-diff
-Usage of C:\Users\linxianrong\go\bin\git-json-diff.exe:
-  -commit1 string
-        commit id, as current version, to fetch the file content. (default "HEAD")
-  -commit2 string
-        commit id, as the old version, to fetch the file content. (default "HEAD~")
-  -file string
-        file in repo to show diff
-  -format string
-        Diff Output Format (ascii, delta) (default "ascii")
-
-```
 
 ## Usage
 
@@ -43,4 +30,18 @@ git-json-diff -file=config/test.json
 ```
 
 Run `git-json-diff` for more cli arguments.
+
+```bash
+$ git-json-diff
+Usage of C:\Users\linxianrong\go\bin\git-json-diff.exe:
+  -commit1 string
+        commit id, as current version, to fetch the file content. (default "HEAD")
+  -commit2 string
+        commit id, as the old version, to fetch the file content. (default "HEAD~")
+  -file string
+        file in repo to show diff
+  -format string
+        Diff Output Format (ascii, delta) (default "ascii")
+
+```
 
